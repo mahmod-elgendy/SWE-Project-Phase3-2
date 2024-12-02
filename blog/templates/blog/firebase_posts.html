@@ -1,0 +1,10 @@
+<h2>Firebase Posts</h2>
+<ul>
+    {% if firebase_data %}
+        {% for key, post in firebase_data.items %}
+            <li><strong>{{ post.title }}</strong>: {{ post.content }}</li>
+        {% endfor %}
+    {% else %}
+        <p>No posts available from Firebase.</p>
+    {% endif %}
+</ul>

@@ -1,0 +1,9 @@
+<h2>Add New Post</h2>
+<form method="POST">
+    {% csrf_token %}
+    <label for="title">Title:</label>
+    <input type="text" name="title" id="title" required><br>
+    <label for="content">Content:</label>
+    <textarea name="content" id="content" required></textarea><br>
+    <button type="submit">Add Post</button>
+</form>
