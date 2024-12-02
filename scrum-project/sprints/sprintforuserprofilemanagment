@@ -1,0 +1,86 @@
+### Overview of the Sprint: User Profile function
+
+#### **Sprint Goal:**
+The goal of this sprint is to implement the **User Profile Management** feature, which will allow users to **view**, **update**, and **delete** their profiles in the system. The feature is designed to enable users to manage their personal information such as their name, email, bio, profile picture, and CV links. 
+
+#### **Sprint Duration:**
+The sprint lasted for **3 days**, with daily scrum meetings for progress updates, collaboration, and problem-solving.
+
+---
+
+### **User Stories:**
+1. **User Story 1: View Profile Information**
+   - **As** a user, 
+   - **I want** to be able to view my profile information, 
+   - **So that** I can see my personal details, profile picture, and CV.
+   
+   **Acceptance Criteria**:
+   - The system should retrieve and display the user's details (name, email, bio, profile picture, CV link).
+   - A `GET` request is made to the `GET /api/accounts/{user_id}/` endpoint.
+
+2. **User Story 2: Update Profile Information**
+   - **As** a user, 
+   - **I want** to be able to update my profile details such as my email, bio, profile picture, and CV link, 
+   - **So that** I can keep my information up to date.
+   
+   **Acceptance Criteria**:
+   - The user should be able to submit a `POST` request to update the details.
+   - The updated data should be validated and reflected in the database.
+   - A `POST` request is made to the `POST /api/accounts/{user_id}/` endpoint.
+
+3. **User Story 3: Delete Profile**
+   - **As** a user, 
+   - **I want** to be able to delete my profile from the system, 
+   - **So that** I can remove my personal information if I no longer wish to use the service.
+   
+   **Acceptance Criteria**:
+   - A user should be able to send a `DELETE` request to delete their profile.
+   - Upon successful deletion, the profile should no longer be accessible.
+   - A `DELETE` request is made to the `DELETE /api/accounts/{user_id}/` endpoint.
+   
+
+### **Tasks Completed in the Sprint:**
+
+1. **API Development:**
+   - Developed and tested the following API endpoints for managing user profiles:
+     - `GET /api/accounts/{user_id}/` to retrieve the profile information.
+     - `POST /api/accounts/{user_id}/` to update the profile.
+     - `DELETE /api/accounts/{user_id}/` to delete the profile.
+
+   
+3. **Firebase Integration:**
+   - Implemented logic for retrieving, updating, and deleting user profiles in Firebase.
+   - Added error handling for cases where the profile could not be found or updated.
+   
+4. **Testing:**
+   - Implemented unit tests and API tests for the `GET`, `POST`, and `DELETE` endpoints.
+   - Conducted successful tests using **Postman** to ensure proper request and response handling.
+   - Ensured JWT tokens are being correctly used for API requests.
+   
+5. **Documentation:**
+   - Created detailed API documentation outlining how to use the user profile management API.
+   - Provided example requests and responses for each endpoint (GET, POST, DELETE).
+   
+6. **Security:**
+   - Ensured that sensitive data such as the Firebase Admin SDK was excluded from version control.
+   - Implemented `.gitignore` to prevent sensitive information from being pushed to the repository.
+   
+
+### **Challenges Faced:**
+
+2. **Firebase Data Handling:**
+   - Managing the profile data in Firebase, including retrieving and updating nested data, required careful attention to structure and format.
+   - Debugging the retrieval and modification of data from Firebase was challenging due to inconsistencies in data formatting.
+
+
+### **Sprint Retrospective:**
+**What Went Well:**
+- The sprint goal was successfully achieved, and the team was able to implement the core functionality of user profile management (view, update, and delete).
+- Testing was comprehensive, with both unit tests and manual testing via Postman.
+
+**What Could Be Improved:**
+- There could have been earlier collaboration between backend and frontend teams to ensure smoother API integration.
+
+### **Conclusion:**
+The **User Profile Management** feature was successfully implemented, and the team met the sprint goals within the given time frame. The sprint was focused on providing core functionality that allows users to manage their profiles
+

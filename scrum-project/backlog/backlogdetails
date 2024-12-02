@@ -1,0 +1,45 @@
+ Backlog functions that we want to work on
+
+#### **Overview**
+The product backlog outlines the core features and functionality aimed at delivering a comprehensive user experience for an educational platform. Each feature is designed to cater to diverse user needs, from registration and content sharing to personalized mentorship and professional development tools. The backlog emphasizes seamless interaction, real-time updates, and intuitive navigation to enhance engagement and usability.
+
+#### **Backlog Features**
+1. **Registration and Login**  
+   - **Objective:** Enable users to onboard the platform effortlessly.  
+   - **Description:** Users can register as guests or create full profiles using secure login credentials. The registration process includes options for email-based signup or guest access, ensuring accessibility for all potential users.
+
+2. **User Profiles**  
+   - **Objective:** Provide users with control over their personal information.  
+   - **Description:** Users can manage their profiles by editing details such as name, bio, profile picture, banners, and CVs. 
+
+3. **Content Sharing and Posting**  
+   - **Objective:** Facilitate knowledge sharing and communication.  
+   - **Description:** Users can share course materials, post updates, and upload multimedia content, including text and images. This feature encourages collaboration and community interaction.
+
+4. **Comments and Interactions**  
+   - **Objective:** Foster engagement within the platform.  
+   - **Description:** Users can comment on shared posts and materials, as well as react using predefined reactions. This interactive functionality strengthens peer-to-peer communication and community building.
+
+5. **Notifications**  
+   - **Objective:** Keep users informed in real-time.  
+   - **Description:** Real-time notifications alert users about updates to tags they are following, posts by people they follow, or interactions on their shared content. This feature ensures users stay connected and informed.
+
+6. **Search and Navigation**  
+   - **Objective:** Enhance content discoverability.  
+   - **Description:** A robust search functionality allows users to find content based on tags, keywords, or categories, enabling quick and efficient navigation across the platform.
+
+7. **Access Control**  
+   - **Objective:** Ensure privacy and data security.  
+   - **Description:** Users can customize privacy settings to control who can view their profiles and shared posts. This feature includes options for public, private, or restricted access, empowering users with control over their data.
+
+8. **Peer Recommendation**  
+   - **Objective:** Drive community collaboration and networking.  
+   - **Description:** A recommendation system suggests relevant peers, courses, or content based on user activity and interests, fostering connections and resource discovery.
+
+9. **CV Builder**  
+   - **Objective:** Support professional development.  
+   - **Description:** Users can access a dedicated panel to create and customize their CVs. The tool provides templates and guidance to help users build a professional profile, ready to be published or downloaded.
+
+10. **Mentorship Panel**  
+    - **Objective:** Facilitate expert guidance and academic support.  
+    - **Description:** A mentorship module connects users with active professors and mentors. Users can browse available mentors, view their profiles, and initiate contact, fostering academic and professional growth.

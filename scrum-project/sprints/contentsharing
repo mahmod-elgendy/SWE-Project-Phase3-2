@@ -1,0 +1,44 @@
+API Development:
+
+Developed and tested the following API endpoints for managing posts:
+POST /api/posts/ to create a new post.
+POST /api/posts/<PostID>/ to update an existing post.
+GET /api/posts/<PostID>/ to retrieve a specific post.
+DELETE /api/posts/<PostID>/ to delete a post.
+Image Upload and Storage:
+
+Integrated Imgur API for uploading images.
+Ensured that image URLs are stored in Firebase alongside post details.
+Firebase Integration:
+
+Implemented logic for saving, updating, and deleting posts in Firebase Realtime Database.
+Ensured all relevant post data (text, tags, image URL, timestamp) is properly saved.
+Testing:
+
+Conducted unit tests and integration tests using Postman for GET, POST, and DELETE requests.
+Verified image upload and retrieval to ensure correct integration with Firebase and Imgur.
+Ensured proper handling of both text and image fields for new and updated posts.
+Documentation:
+
+Created comprehensive API documentation for content sharing and posting endpoints.
+Provided examples for POST, GET, and DELETE requests with detailed explanations on how to upload and manage images.
+Security:
+
+Verified that only authorized users can create, update, or delete posts using proper authentication mechanisms (e.g., JWT tokens).
+Challenges Faced:
+Image Uploading:
+
+Integrating the image upload functionality with Imgur required handling both image file format and URL retrieval. Ensuring the image was properly saved and linked to the post was challenging.
+Ensuring the image URL was correctly stored in Firebase and linked to the post was essential for maintaining data consistency.
+Firebase Data Handling:
+
+Managing nested data (post details and image URL) and ensuring correct updates to Firebase proved challenging. Ensuring that the database structure aligned with the desired post functionality was critical.
+Sprint Retrospective:
+What Went Well:
+
+The team successfully implemented and tested all required functionalities for content sharing and posting, including image uploads, post creation, updates, and deletion.
+Collaboration between the backend (API) and frontend (user interface) teams helped resolve issues promptly.
+What Could Be Improved:
+
+Better error handling and validation could have been introduced for image uploads to handle edge cases, such as file size or unsupported formats.
+More rigorous testing on the frontend side could have been conducted earlier to ensure smooth integration with the API.
